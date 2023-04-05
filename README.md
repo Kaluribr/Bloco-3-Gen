@@ -22,9 +22,7 @@ Dar exemplos
 HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Ou seja, usamos ela para montar o 'esqueleto' em nossa página da WEB.
 Cascading Style Sheets (CSS) é um mecanismo para adicionar estilos a uma página web, aplicado diretamente nas tags HTML ou ficar contido dentro das tags <style>. Com isso podemos montar a 'pele' da nossa página na WEB.
 
-```
-Dar exemplos
-```
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -37,9 +35,6 @@ Dar exemplos
 </html>
 Referencia: https://www.devmedia.com.br/html-basico-codigos-html/16596
 
-```
-Até finalizar
-```
 
 Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
 
@@ -52,4 +47,4 @@ Termine com um exemplo de como obter dados do sistema ou como usá-los para uma 
 
 
 ---
-⌨️ com ❤️ por [Armstrong Lohãns](https://github.com/Kaluribr) 😊
+⌨️ com ❤️ por [Danilo Moraes](https://github.com/Kaluribr) 😊
