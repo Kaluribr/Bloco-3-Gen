@@ -2,11 +2,10 @@
 
 Iniciamos com introdução de HTML5 e CSS (continua)
 
-## 🚀 Começando
+## 🚀 Assuntos importantes
 
-Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
-
-Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
+HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Ou seja, usamos ela para montar o 'esqueleto' em nossa página da WEB.
+Cascading Style Sheets (CSS) é um mecanismo para adicionar estilos a uma página web, aplicado diretamente nas tags HTML ou ficar contido dentro das tags <style>. Com isso podemos montar a 'pele' da nossa página na WEB.
 
 ### 📋 Pré-requisitos
 
@@ -17,10 +16,7 @@ Tenha o VScode instalado em sua máquina.
 Dar exemplos
 ```
 
-### 🔧 Assuntos importantes
-
-HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Ou seja, usamos ela para montar o 'esqueleto' em nossa página da WEB.
-Cascading Style Sheets (CSS) é um mecanismo para adicionar estilos a uma página web, aplicado diretamente nas tags HTML ou ficar contido dentro das tags <style>. Com isso podemos montar a 'pele' da nossa página na WEB.
+### 🔧 Começando
 
 
 <!DOCTYPE html>
