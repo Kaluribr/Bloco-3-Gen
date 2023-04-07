@@ -1,67 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contato</title>
-    
-    <link rel="stylesheet" href="assets/style.css" />
-  </head>
-  <body>
-    <nav>
-      <ul>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato</title>
+</head>
+<body>
+    <ul>
         <li>
-          <a href="./index.html"> Home </a>
+            <a href="index.html">Home</a>
         </li>
-        <li>
-          <a href="./contato.html"> Contato </a>
+        <li><a href="contato.html">Contato</a>
         </li>
-      </ul>
-    </nav>
-
+    </ul>
+  
     <h1>Entre em contato comigo</h1>
-    <main class="mainFlex">
-      <div class="left">
-        <form>
-          <label for="nome">Nome:</label> <br />
-          <input type="text" id="nome" onkeyup="lerNome()" />
-          <div id="txtNome"></div>
-          <br />
-          <br />
-          <label for="email">E-mail:</label> <br />
-          <input type="email" id="email" />
-          <br />
-          <br />
-          <label for="assunto">Assunto:</label> <br />
-          <textarea name="assunto" id="assunto" rows="5"></textarea>
-          <br />
-          <br />
-          <button>Enviar</button>
-        </form>
-      </div>
-
-      <div class="right">
-        <div>
-          <p>Rua das ruas, 123</p>
-          <p>Terra - Sistema Solar</p>
-        </div>
-
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d36594.64948938991!2d-160.36918588227658!3d4.695669069575803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1680626329876!5m2!1spt-BR!2sbr"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-      </div>
-    </main>
-    <hr>
-    <div id="torrada">
-      <footer>
-        <p>Feito com amor e carinho 🖤 | Danilo Moraes - 2023</p>
-      </footer>
-    </div>
     
-    <script src="assets/js/script.js"></script>
-  </body>
+    <form action="">
+      <label for="nome">Nome:</label><br>
+      <input type="text" id="nome">
+      <br>
+      <br>
+      <label for="email">E-mail:</label><br>
+      <input type="email" id="email">
+      <br>
+      <br>
+      <label for="assunto">Assunto:</label><br>
+      <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
+      <br>
+      <br>
+      <button>Enviar</button>
+    </form>
+
+    <h2>Endereco</h2>
+
+    <p>Eng. Coelho - SP</p>
+    <p>Rua Cavalheiro Francisquetti, 319 - Jardim Luiz Favero, 13165-000</p>
+    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6199.723652228414!2d-47.208607199014715!3d-22.490006483870097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c88bf428f5d015%3A0x3ed5b6ccc077e4c!2sSupermercado%20Guidotti!5e0!3m2!1spt-BR!2sbr!4v1680871344280!5m2!1spt-BR!2sbr" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</body>
 </html>
