@@ -1,22 +1,19 @@
 // Criacao de variaveis
 
 //escopo global e pode ser redefinido - nao e mais indicado oficialmente
-var nome45 = 'Thiago'
+    /*
+    Case Sensitive = reconhece letras maiusculas e minusculas
 
-//padroes atuais de criar variaveis
+    por Tag: getElementByTagName()
+    por Id: getElementById()
+    por Nome: getElementsByName()
+    por Classe: getElementsByClassName()
+    por Seletor: querySelector()
+    */
 
-//escopo local e pode ser redefinido
-let nome2 = 'Thiago'
+    let nome = window.document.getElementById('nome');
+    let email= document.querySelector('#email')
+    let assunto= document.querySelector('#assunto')
 
-// escopo local e nao pode ser redefinido
-const nome3 = 'Thiago'
-
-//Capturando elementos da DOM
-const nome = window.document.getElementById('nome')
-//const imput = window.document.getElementByTagname('imput')
-
-// Criando funcoes com o JS
-function lerNome(){
-    console.log(nome.value)
-    //if(nome.valueOf.length<3)
-}
+    nome.style.width = '100%';
+    email.style.width = '100%'
